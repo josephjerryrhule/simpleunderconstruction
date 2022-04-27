@@ -1,0 +1,91 @@
+@font-face{
+  font-family: Righteous;
+  src: url("../font/Righteous-Regular.ttf");
+}
+
+.logo{
+  width: 100%;
+  height: 72px;
+}
+
+.lottie-anime{
+  width: 42rem;
+  height: 42rem;
+}
+@media (max-width: 997px){
+  .lottie-anime{
+    width: 100%;
+    height: auto;
+  }
+  .title{
+    font-size: 32px !important;
+    text-align: center;
+  }
+  .fb{
+    font-size: 16px !important;
+  }
+  .tw{
+    font-size: 16px !important;
+  }
+  .ig{
+    font-size: 16px !important;
+  }
+  .copyright-area{
+    font-size: 13px !important;
+  }
+  .logo{
+    height: auto;
+  }
+}
+
+
+
+.icon-link{
+  text-decoration: none;
+}
+.fb{
+  color: #000;
+  font-size: 24px;
+  padding: 5px;
+}
+.fb:hover{
+  transition: .3s ease-in;
+  color: #4267B2;
+}
+.tw{
+  color: #000;
+  font-size: 24px;
+  padding: 5px;
+}
+.tw:hover{
+  transition: .3s ease-in;
+  color: #1DA1F2;
+}
+.ig{
+  color: #000;
+  font-size: 24px;
+  padding: 5px;
+}
+.ig:hover{
+  transition: .3s ease-in;
+  color: #C13584;
+}
+.title{
+  font-size: 52px;
+  font-weight: 700;
+  font-family: Righteous;
+}
+.footer-link{
+  text-decoration: none;
+  color: #000;
+}
+.footer-link:hover{
+  transition: .5s ease-in;
+  color: #333;
+  text-decoration: underline;
+}
+@media (min-width:998px){
+  .mobiview{
+    display: none;
+  }
+}
